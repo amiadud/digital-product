@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .menu-container{
-
+    width: 100%;
     background-color: rgb(53, 52, 52);
     padding: 10px;
     color: white;
@@ -11,9 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    position:fixed;
 }
 .menu-container .logo-photo{
-    width: 50px;
+    margin-top: 5px;
+    width:60px;
 }
 .menu-container .menus{
     display: flex;
@@ -28,7 +31,7 @@
     cursor: pointer;
 }
 .side-photos{
-    width: 150px;
+    width: 300px;
 }
 .banner-container{
     color: white;
@@ -37,6 +40,12 @@
     height: 100vh;
     align-items: center;
     background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    margin-left: 10px;
 }
 .title{
     font-size: 55px;
@@ -57,4 +66,73 @@
 .btn:hover{
     background-color: aqua;
     color: black;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.girls-photos{
+    width: 70vh;
+}
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.box{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.box-btn{
+    background-color: gray;
+    padding: 10px 30px;
+    margin-top: 20px;
+
+}
+.box-image{
+    width: 100px;
+}
+.box-des{
+    margin-top: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+footer{
+    background-color: aqua;
+}
+.footer-container{
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    line-height: 1.8em;
+}
+.footer-photo{
+    width: 120px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+.icons{
+    margin-top:20px;
 }
