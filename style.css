@@ -1,33 +1,60 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.test{
-    color: brown;
-    
-}
-.text:hover{
-    cursor: url("Fresh-food.png"),auto;
-}
-.container{
+.menu-container{
+
+    background-color: rgb(53, 52, 52);
+    padding: 10px;
+    color: white;
+    list-style: none;
     display: flex;
-    border: 2px solid gold;
-    align-items: right;
-    height: 500px;
+    align-items: center;
+    justify-content: space-around; 
 }
-.box{
-    margin:2px ;
-    width: 110px;
-    height: 110px;
-    padding: 20px;
-    background-color: aquamarine;
+.menu-container .logo-photo{
+    width: 50px;
 }
-
-.box2{
-    background-color: green;
+.menu-container .menus{
+    display: flex;
 }
-
-.box3{
-    background-color: blue;
+.item{
+    margin-right: 10px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
+}
+.side-photos{
+    width: 150px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
 }
