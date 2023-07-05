@@ -5,4 +5,29 @@
 }
 .test{
     color: brown;
+    
+}
+.text:hover{
+    cursor: url("Fresh-food.png"),auto;
+}
+.container{
+    display: flex;
+    border: 2px solid gold;
+    align-items: right;
+    height: 500px;
+}
+.box{
+    margin:2px ;
+    width: 110px;
+    height: 110px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
 }
